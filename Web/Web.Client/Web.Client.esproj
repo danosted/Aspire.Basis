@@ -1,0 +1,9 @@
+<Project>
+    <Sdk Name="Microsoft.VisualStudio.JavaScript.Sdk" Version="1.0.1364779"/>
+    <PropertyGroup>
+        <StartupCommand>npm run dev</StartupCommand>
+        <JavascriptTestRoot>src\</JavascriptTestRoot>
+        <ShouldRunBuildScript>false</ShouldRunBuildScript>
+        <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+    </PropertyGroup>
+</Project>
