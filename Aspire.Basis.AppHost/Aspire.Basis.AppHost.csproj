@@ -10,11 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.2" />
+    <PackageReference Include="Aspire.Hosting.AppHost" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Web\Web.Server\Web.Server.csproj" />
+    <ProjectReference Include="..\SharedClasses\SharedClasses.csproj" IsAspireProjectResource="false" />
+    <ProjectReference Include="..\Yarp\Yarp.csproj" />
   </ItemGroup>
 
 </Project>

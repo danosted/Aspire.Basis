@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Server", "Web\Web.Serve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yarp", "Yarp\Yarp.csproj", "{AE4D681B-D949-4648-9CB8-D3417EDA01BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedClasses", "SharedClasses\SharedClasses.csproj", "{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{AE4D681B-D949-4648-9CB8-D3417EDA01BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE4D681B-D949-4648-9CB8-D3417EDA01BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE4D681B-D949-4648-9CB8-D3417EDA01BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

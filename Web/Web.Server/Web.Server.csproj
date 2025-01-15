@@ -13,10 +13,13 @@
     <ProjectReference Include="$(SpaRoot)Web.Client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\..\SharedClasses\SharedClasses.csproj" />
+    <ProjectReference Include="..\..\Aspire.Basis.ServiceDefaults\Aspire.Basis.ServiceDefaults.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaProxy" />
   </ItemGroup>
+
 
 </Project>

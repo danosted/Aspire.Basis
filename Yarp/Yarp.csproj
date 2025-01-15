@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Yarp.ReverseProxy" Version="2.2.0" />
+    <PackageReference Include="Yarp.ReverseProxy" />
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Yarp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspire.Basis.ServiceDefaults\Aspire.Basis.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\SharedClasses\SharedClasses.csproj" />
   </ItemGroup>
 
 </Project>

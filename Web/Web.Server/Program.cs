@@ -4,6 +4,6 @@ var app = builder.Build();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
-app.MapFallbackToFile("/index.html"); // map fallback to our index.html which is 
+app.MapFallbackToFile("/index.html");
 
 app.Run();
