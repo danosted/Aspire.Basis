@@ -1,4 +1,5 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.0.0
 MinimumVisualStudioVersion = 17.8.0.0
@@ -13,6 +14,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yarp", "Yarp\Yarp.csproj", "{AE4D681B-D949-4648-9CB8-D3417EDA01BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedClasses", "SharedClasses\SharedClasses.csproj", "{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Web.Client", "Web\Web.Client\Web.Client.esproj", "{86C51E2A-D809-CCC5-FBA9-FA957A113F34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,14 +52,21 @@ Global
 		{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1E9EEE0-03E4-4AEE-A278-67BE53B85BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C51E2A-D809-CCC5-FBA9-FA957A113F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C51E2A-D809-CCC5-FBA9-FA957A113F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C51E2A-D809-CCC5-FBA9-FA957A113F34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{86C51E2A-D809-CCC5-FBA9-FA957A113F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C51E2A-D809-CCC5-FBA9-FA957A113F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C51E2A-D809-CCC5-FBA9-FA957A113F34}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1656A591-4BAD-4E50-9A74-AE8D3A628764}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C7BB02BB-C445-47FE-A97E-3105F2FCE961} = {5247948B-1772-4BBA-A5F5-D34BCD9315C9}
+		{86C51E2A-D809-CCC5-FBA9-FA957A113F34} = {5247948B-1772-4BBA-A5F5-D34BCD9315C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1656A591-4BAD-4E50-9A74-AE8D3A628764}
 	EndGlobalSection
 EndGlobal
