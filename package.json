@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.29.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.81.5"
+  }
+}

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <SpaRoot>..\Web.Client\</SpaRoot>
-    <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
+    <SpaProxyLaunchCommand>npm run vite:dev</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:3001</SpaProxyServerUrl>
   </PropertyGroup>
 
@@ -15,7 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy" />
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
   </ItemGroup>
 
 

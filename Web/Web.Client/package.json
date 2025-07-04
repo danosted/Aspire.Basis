@@ -4,24 +4,29 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "typecheck": "tsc --noEmit",
-    "dev": "vite --port=3001",
-    "build": "vite build",
-    "serve": "vite preview",
-    "start": "vite"
+    "vite:dev": "vite --port=3001",
+    "vite:build": "vite build",
+    "vite:serve": "vite preview",
+    "vite:start": "vite",
+    "test:ts": "tsc --noEmit",
+    "generate:api": "npx openapi-typescript http://localhost:5293/openapi/v1.json -o ./src/api/generated/schema.d.ts"
   },
   "devDependencies": {
     "@tanstack/router-plugin": "^1.94.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
-    "vite": "^6.0.3",
+    "openapi-typescript": "^7.8.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
     "vite-plugin-mkcert": "^1.17.6"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.11",
-    "@tanstack/react-router": "^1.94.1",
+    "@tanstack/react-query": "^5.81.5",
+    "@tanstack/react-router": "^1.124.0",
     "@tanstack/router-devtools": "^1.94.1",
+    "openapi-fetch": "^0.14.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwindcss": "^4.0.11"
